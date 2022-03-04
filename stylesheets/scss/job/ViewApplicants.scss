@@ -1,0 +1,60 @@
+@import "../variables";
+
+.job_application {
+    width: 750px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(226, 226, 226);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.job_application_userSection,
+.job_application_costs {
+    display: flex;
+    align-items: center;
+}
+
+.job_application_userSection a {
+    width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+}
+
+.job_application_userSection img {
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.job_application_userSection p {
+    margin: 0;
+    margin-left: auto;
+}
+
+.job_application_costs {
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.job_application_button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.job_application_button a {
+    padding: 4px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: $darkGray;
+    color: white;
+
+    &:hover {
+        color: white;
+    }
+}

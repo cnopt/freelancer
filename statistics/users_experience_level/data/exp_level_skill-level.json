@@ -1,0 +1,18 @@
+[
+    {
+        "skill_level": "Novice",
+        "users": 42
+    },
+    {
+        "skill_level": "Intermediate",
+        "users": 168
+    },
+    {
+        "skill_level": "Highly Skilled",
+        "users": 234
+    },
+    {
+        "skill_level": "Expert",
+        "users": 108
+    }
+]

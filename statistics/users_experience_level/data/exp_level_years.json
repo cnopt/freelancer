@@ -1,0 +1,22 @@
+[
+    {
+        "years_experience": "< 1 year",
+        "users": 46
+    },
+    {
+        "years_experience": "1-3 years",
+        "users": 91
+    },
+    {
+        "years_experience": "3-5 years",
+        "users": 182
+    },
+    {
+        "years_experience": "5-10 years",
+        "users": 207
+    },
+    {
+        "years_experience": "10+ years",
+        "users": 93
+    }
+]

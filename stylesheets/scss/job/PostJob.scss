@@ -1,0 +1,31 @@
+.post-job-form-container {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
+}
+
+.post-job-form {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+}
+
+.post-job-form input[type=text] {
+    padding: 5px 0;
+    padding-left: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.post-job-form input[type=submit] {
+    display: block;
+}
+
+h3 {
+    text-align: center;
+}

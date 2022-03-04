@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,sBAAsB,CAAC;EACnB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;CAEhB;;AAED,AAAA,sBAAsB,CAAC,CAAC,CAAC;EACrB,UAAU,EAAE,IAAI;CACnB;;AAED,AAAA,sBAAsB,CAAC,CAAC,CAAC;EACrB,OAAO,EAAE,GAAG;EACZ,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,gBAAgB,ECdX,OAAgB;EDerB,KAAK,ECjBD,OAAe;CDkBtB",
+    "sources": [
+        "../scss/job/AcceptApplication.scss",
+        "../scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "AcceptApplication.css"
+}

@@ -1,0 +1,19 @@
+@import "../variables";
+
+.job_acceptApplication {
+    width: 500px;
+    padding: 30px;
+
+}
+
+.job_acceptApplication p {
+    margin-top: 50px;
+}
+
+.job_acceptApplication a {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: $yellow;
+    color: $black;
+}

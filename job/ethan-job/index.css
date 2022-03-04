@@ -1,0 +1,206 @@
+/* background colour of dark grey */
+body {background-color: #ebebeb;}
+
+/* style for footer */
+.footer a {
+    color: black;
+}
+
+.social-icon{
+    filter: grayscale(100%);
+    padding-bottom: 30px;
+}
+
+.social-icon:hover {
+    filter: grayscale(0%);
+}
+
+/* style for section seperators */
+
+.outer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: black;
+}
+
+.card {
+    border: none!important;  /*important is used to override bootstrap settings*/
+    margin: 10px;
+}
+
+/* cantainer is the conatiner for the dymnaic display element */
+.container {
+    width: 70%;
+}
+
+/* styling for the layout shifter element at the bottom of the homepage.*/
+.responsiveDisplay {
+    box-sizing:border-box;
+    display: flex;
+    margin: auto;
+    width: 60%;
+}
+/* each display is the elements for the layout shifter.*/
+.Display1{
+    background-color: #868e96;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    box-sizing:border-box;
+    padding:20px;
+    float:left;
+    width:30%; /* The width is 20%, by default */
+    transition: box-shadow 0.2s linear;
+}
+
+.Display2 {
+    background-color: #868e96;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    box-sizing:border-box;
+    padding:20px;
+    float:left;
+    width:40%; /* The width is 60%, by default */
+    transition: box-shadow 0.2s linear;
+}
+
+.Display3 {
+    background-color: #868e96;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    box-sizing:border-box;
+    padding:20px;
+    float:left;
+    width:30%;
+    transition: box-shadow 0.2s linear;
+}
+
+/* image icons within the layout shifter display.*/
+.ResImg {
+    width: 80%;
+    margin: 10px;
+    max-height: 200px;
+}
+
+
+/* setting the breakpoints for devices 700px for phones, 1200 for tables and anything other gets the full horizontal display.*/
+/* using different flex display settings to specify diffirent layouts on screen sizes .*/
+@media screen and (max-width:1200px) {
+    .responsiveDisplay{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    .Display1{
+        width:40%;
+        order: 2;
+    }
+    .Display2{
+        width:40%;
+        order: 1;
+    }
+    .Display3{
+        width:85%;
+        order: 3;
+    }
+    .ResImg{
+        width: 30%;
+    }
+    .displayHead{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .responsiveDisplay{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .Display1{
+        width:100%;
+        order: 1;
+    }
+    .Display2{
+        width:100%;
+        order: 2;
+    }
+    .Display3{
+        width:100%;
+        order: 3;
+    }
+
+}
+
+li {
+    list-style-type: none;
+}
+
+#open-apply-form {
+    cursor: pointer;
+}
+
+#apply-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.apply-form-container {
+    margin-top: 10px;
+}
+
+#apply-form input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+#apply-form input{
+    border: 1px solid gray;
+    padding: 5px 0;
+    padding-left: 5px;
+}
+
+.already-applied {
+    border-bottom: 10px solid #ebebeb;
+}
+
+.not-applied {
+    border-bottom: 10px solid #ebebeb;
+}
+
+h3 {
+    text-align: center;
+}
+
+.post-job-form-container {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
+}
+
+.post-job-form {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+}
+
+.post-job-form input[type=text] {
+    padding: 5px 0;
+    padding-left: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.post-job-form input[type=submit] {
+    display: block;
+}

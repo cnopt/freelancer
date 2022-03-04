@@ -1,0 +1,72 @@
+.job_container {
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-top: 40px;
+}
+
+#please-login-msg {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.job_menu {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 75px;
+}
+
+.job_menu a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.job_menu a:not(.job_menu--active) {
+  color: #868e96 !important;
+}
+
+.job_menu a:not(.job_menu--active):hover {
+  color: black !important;
+  text-decoration: none;
+}
+
+.job {
+  width: 600px;
+  margin-bottom: 25px;
+  border: 1px solid #eeeeee;
+  background-color: white;
+  padding: 30px;
+}
+
+.job a {
+  background-color: #868e96;
+  padding: 10px;
+  color: white;
+  display: inline-block;
+}
+
+.job a:hover {
+  background-color: #e0e0e0;
+  color: black;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Job.css.map */
