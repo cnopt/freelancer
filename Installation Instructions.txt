@@ -1,0 +1,11 @@
+1. Download XAMPP: https://www.apachefriends.org/index.html
+2. Change XAMPP folder location so it runs our code folder: https://stackoverflow.com/a/18903044/12024314
+3. Install Composer: https://getcomposer.org/
+4. In the command prompt, navigate to the location of our code/repo and type "composer install"
+5. In a text editor, search and replace "https://freelancerrr.herokuapp.com" with "http://localhost"
+6. Open XAMPP and click Start on the Apache module
+7. Navigate in a browser to localhost:x where x is the designated ports (shown in XAMPP), default is localhost:80
+
+Note: You will not be able to process stripe payments on localhost as it requires you to
+have your own stripe account, setup webhooks, install the Stripe CLI and forward requests to localhost.
+To see Stripe payments in action visit: https://freelancerrr.herokuapp.com
