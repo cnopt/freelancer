@@ -1,0 +1,562 @@
+@font-face {
+    font-family: 'atlas';
+    src: url('AtlasGrotesk-Regular-Web.woff2');
+}
+@font-face {
+    font-family: 'decimal';
+    src: url('decimamonopro-webfont.woff2');
+}
+@font-face {
+    font-family: 'inter';
+    src: url('Inter.var.woff2');
+}
+
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 2em;
+    letter-spacing: -0.011em;
+    font-family: 'atlas';
+    font-size: 16px;
+    color: #cfcfcf;
+    background: #141619;
+    /* display: flex;
+    flex-direction: column;
+    flex-flow: row;
+    align-items: end;
+    justify-content: space-evenly;
+    padding: 5em 2em;
+    letter-spacing: -0.011em;
+    font-family: 'atlas';
+    font-size: 16px;
+    color: #34495e;
+    background: #f8f9fa; */
+} 
+
+#main-page-header {
+    position: fixed;
+    z-index: 5;
+    top:4.75rem;
+    left:1.5rem;
+}
+#main-page-header-text {
+    display: inline-block;
+    margin: 0;
+    vertical-align: super;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding-left: 0.25rem;
+}
+#main-page-header svg {
+    fill:#cfcfcf !important
+}
+
+nav.navbar {
+    background-color: white !important;
+}
+
+#main-page-nav {
+    height: 100%;
+    width: 250px;
+    transform: translateX(-250px); /* hide the side nav bar by default */
+    position: fixed;
+    z-index: 1;
+    top: 3rem;
+    left: 0;
+    background-color: #050505;
+    box-shadow: 0 3px 14px 0 rgba(0,0,0,0.25), 0 0 0 1px rgba(0,0,0,0.04);
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+#main-page-nav a {
+    display: block;
+    font-family: 'atlas', sans-serif;
+    font-size: 1em;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    padding-left: 1.7rem;
+    border-top: 1px solid rgb(97 97 97);
+    color: #cfcfcf;
+    text-decoration: none;
+}
+#main-page-nav a:hover {
+    background-color: rgba(0,0,0,0.05);
+}
+#main-page-nav a:nth-of-type(1) {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* removes the ugly blue highlight when mobile users click the X button */
+    -webkit-tap-highlight-color: transparent;
+}
+.closebtn {
+    font-size: 1.9em !important;
+    color: #4f4f4f !important;
+    font-weight: bold !important;
+  }
+
+
+#map {
+    margin-bottom: 2.5rem;
+}
+
+#title-desc {
+    margin-bottom: 4rem;
+    /* margin-left: -20rem; */
+    width: 75%;
+}
+
+#title-desc h1 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 1.85em;
+    font-weight: normal;
+    border-bottom: 2px solid#cfcfcf;
+    padding-bottom: 0.4rem;
+}
+
+#title-desc p {
+    font-size: 1em;
+    color:#999;
+    /* width: 18rem; */
+    position: relative;
+    margin-top: 1.4rem;
+}
+#title-desc p::before {
+    /* content: "//"; */
+    position: absolute;
+    left:-40px;
+    font-size: 2em;
+    opacity: 0.25;
+    margin-right: 1.9rem;
+}
+
+#subsection-heading {
+    /* margin-left: -30rem; */
+}
+#subsection-heading h3 {
+    font-weight: normal;
+    border-bottom: 1px solid;
+    padding-bottom: 0.5rem;
+}
+#subsection-heading p {
+    font-size: 0.9em;
+    margin-top: 1.25rem;
+    margin-bottom: 1.75rem;
+    line-height: 1.75;
+}
+
+g text.caption {
+    font-family: decimal;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    transform: translate(10px, -10px);
+    fill: #cfcfcf !important;
+}
+
+g text.label {
+    font-family: decimal;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    fill: #cfcfcf;
+}
+
+.legendCells {
+    transform: translateX(10px);
+}
+
+#years-wrapper, #skill-level-wrapper {
+    position: relative;
+    margin-bottom: 1.3rem;
+    cursor: crosshair;
+}
+
+table {
+    border-collapse: collapse;
+    width: 68%;
+    margin-left: 7rem;
+}
+
+th {
+    border-bottom: 1px solid black;
+    /* border-top:  1px solid black; */
+    text-transform: uppercase;
+    font-size: 0.7em;
+    text-align: left;
+    font-weight: 100;
+    padding-bottom: 0.2rem;
+    padding-right: 1.75rem;
+}
+
+td {
+    border-bottom: 1px solid #cdcdcd;
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+td.text {
+    font-size: 0.9em;
+    padding-right: 2rem;
+}
+
+td.number {
+    /* text-align: center; */
+    font-family: 'decimal';
+    font-size: 0.9em;
+}
+
+.yAxisInfo path.domain, .xAxisInfo path.domain {
+    display: none;
+}
+
+.xAxisInfo .tick {
+    font-size: 0.9em;
+}
+
+.xAxisLabel {
+    font-family: decimal;
+    font-size: 0.9em;
+    opacity: 0.7;
+}
+
+.yAxisInfo .tick line {
+    display:none;
+}
+
+.tick text {
+    font-family: 'decimal';
+    font-size:1.35em;
+    color: #cfcfcf !important;
+    fill: #cfcfcf !important
+}
+path.domain {
+    stroke: #cfcfcf !important;
+}
+text.c3-axis-y-label {
+    fill:#cfcfcf !important;
+}
+.c3-legend-item text {
+    fill:#cfcfcf !important;
+}
+.c3-tooltip {
+    color:#141619 !important;
+}
+
+line {
+    stroke:#cfcfcf !important;
+}
+text.title {
+    fill:#cfcfcf !important
+}
+text.barUsers {
+    fill:#cfcfcf !important
+}
+.legendCells text {
+    fill:#cfcfcf !important
+}
+.legendCells rect {
+    stroke: #969696 !important;
+}
+.tooltip {
+    color:black;
+}
+
+.histogram-chart rect {
+    fill:rgb(18, 203, 196);
+}
+
+.histogram-chart .tick line {
+    fill:none;
+    stroke: rgb(112, 112, 112);
+    shape-rendering: crispEdges;
+    stroke-width: 0.5px;
+}
+.histogram-chart .xAxisInfo .tick text {
+    opacity: 0.7;
+}
+
+/* svg rect {
+    fill:#dddddd;
+    transition: width 1.3s ease-out;
+}
+
+svg rect:hover {
+    /* fill: #C2D4EA;
+    fill: #cdcdcd;
+} 
+*/
+
+.tooltip {
+    opacity: 0;
+    position: absolute;
+    top: -12px;
+    left: 0;
+    font-family: 'decimal';
+    text-transform: uppercase;
+    font-size: 0.8em;
+    text-align: center;
+    border: 1px solid #ddd;
+    z-index: 10;
+    transition: all 0.2s ease-out;
+    pointer-events: none;
+}
+.tooltip-value {
+    padding: 0.6em 1em;
+    background: #fff;
+}
+#tooltip-shadow {
+    position: relative;
+    z-index: -1;
+}
+#tooltip-shadow::after {
+    content: "";
+    position: absolute;
+    left:7px;
+    top:-24px;
+    height: 32px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.30);
+}
+
+.tooltip #count {
+    font-weight: 600;
+}
+.tooltip #percent {
+    font-weight: 600;
+}
+
+#map g path:hover {
+    opacity: 0.8;
+}
+
+
+#chart g rect {
+    fill: unset;
+    transition: opacity 0.3s ease-out;
+}
+
+/* #chart g rect:hover {
+    opacity: 0.8;
+} */
+
+#salary-js-wrapper, #salary-backend-wrapper, #salary-machine-learning-wrapper,
+#salary-languages-wrapper, #job-listings-by-year-wrapper, #job-listings-by-day-wrapper,
+#job-listings-popular-tech-wrapper, #job-listings-revenue-wrapper, #user-signup-by-country-wrapper {
+    margin-bottom: 3rem;
+}
+
+#chart-salary-js-frameworks text.barUsers, #chart-backend-frameworks text.barUsers,
+#chart-machine-learning-frameworks text.barUsers, #chart-programming-languages text.barUsers {
+    font-family: decimal;
+    font-size: 0.8em;
+}
+
+#chart-salary-js-frameworks, #chart-backend-frameworks,
+#chart-machine-learning-frameworks, #chart-programming-languages,
+#chart-job-listings-by-year, #chart-job-listings-popular-tech, #chart-job-listings-revenue,
+#chart-user-signup-by-country {
+    margin-top: 1.75rem;
+}
+
+#table-salary-js-frameworks, #table-backend-frameworks,
+#table-machine-learning-frameworks, #table-programming-languages,
+#table-users-by-country {
+    width: 90%;
+    margin-left: unset;
+    margin: auto;
+    margin-top: .25rem;
+}
+
+#chart-job-listings-revenue svg {
+    display: inline-block !important;
+}
+
+#revenue-selector, #country-selector {
+    display: block;
+    width: 260px;
+    margin: auto;
+    font-family: atlas;
+    font-size: 0.9em;
+    padding: 0.3rem;
+    margin-top: 3.75rem;
+    margin-bottom: -0.4rem;
+    text-align-last: center;
+}
+
+.chart-job-postings-legend {
+    fill:red;
+    width: 20px;
+    height:240px;
+}
+
+.chart-job-postings-legend-border {
+    width: 21px;
+    height: 258px;
+    stroke:  #cfcfcf !important;
+}
+
+.chart-job-postings-legend-label {
+    font-family: decimal;
+    font-size: 0.8em;
+    fill: #cfcfcf;
+}
+
+.category-path {
+    fill: none;
+    stroke:white;
+}
+
+label {
+    dominant-baseline: middle;
+}
+
+.start-label {
+    text-anchor: end;
+    dominant-baseline: middle;
+}
+
+.start-title {
+    text-anchor: end;
+    font-size: 0.8em;
+    opacity: 0.5;
+}
+
+.ending-marker {
+    opacity: 0.4;
+    fill: #cfcfcf !important;
+}
+
+.marker {
+    mix-blend-mode: multiply;
+}
+
+.value {
+    font-size: 0.8em;
+}
+
+.label {
+    dominant-baseline: middle;
+}
+
+.ending-bar {
+    transition: all 0.3s ease-out;
+}
+
+.ending-value {
+    font-size: 0.7em;
+    text-anchor: end;
+    font-weight: 600;
+    font-feature-settings: 'tnum' 1;
+}
+
+.legend {
+    font-size: 0.8em;
+    opacity: 0.6;
+    dominant-baseline: middle;
+}
+
+.legend-text-left {
+    text-anchor: end;
+    fill: #cfcfcf !important;
+}
+.legend-text-right {
+    fill:#cfcfcf !important;
+}
+.legend polygon {
+    fill:#cfcfcf !important;
+}
+.legend circle {
+    fill:#cfcfcf !important;
+}
+.bb-legend-item text {
+    fill:#cfcfcf !important;
+}
+.bb-axis-y-label {
+    fill:#cfcfcf !important;
+}
+.bb-axis text {
+    fill:#cfcfcf !important;
+}
+
+.legend-line {
+    stroke: grey;
+    stroke-width: 1px;
+}
+
+.bubble-name {
+    font-family: atlas;
+}
+
+.bubble-value {
+    font-family: decimal;
+    fill:rgba(0,0,0,0.45);
+}
+    
+.bubble-svg { visibility: hidden; }
+/* Prevents :hover from triggering in the gaps between items */
+
+.bubble-svg > * { visibility: visible; }
+/* Brings the child items back in, even though the parent is `hidden` */
+
+.bubble-svg > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+/* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
+
+.bubble-svg:hover > * { opacity: 0.5; }
+/* Fade out all items when the parent is hovered */
+
+.bubble-svg > *:hover { opacity: 1; transition-delay: 0ms, 0ms; }
+/* Fade in the currently hovered item */
+
+
+#chart-salary-js-frameworks, #chart-backend-frameworks,
+#chart-machine-learning-frameworks, #chart-programming-languages { visibility: hidden; }
+/* Prevents :hover from triggering in the gaps between items */
+
+#chart-salary-js-frameworks > *, #chart-backend-frameworks > *,
+#chart-machine-learning-frameworks > *, #chart-programming-languages > * { visibility: visible; }
+/* Brings the child items back in, even though the parent is `hidden` */
+
+#chart-salary-js-frameworks > *, #chart-backend-frameworks > *,
+#chart-machine-learning-frameworks > *, #chart-programming-languages > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+/* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
+
+#chart-salary-js-frameworks:hover > *, #chart-backend-frameworks:hover > *,
+#chart-machine-learning-frameworks:hover > *, #chart-programming-languages:hover > * { opacity: 0.5; }
+/* Fade out all items when the parent is hovered */
+
+#chart-salary-js-frameworks > *:hover, #chart-backend-frameworks > *:hover,
+#chart-machine-learning-frameworks > *:hover, #chart-programming-languages > *:hover { opacity: 1; transition-delay: 0ms, 0ms; }
+/* Fade in the currently hovered item */
+
+.legendThreshold, .y-axis, .x-axis {
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: none !important;
+}
+
+#grouped-bubble-toolbar {
+    margin-top: 3.5rem;
+    text-align: center;
+    font-family: 'atlas';
+    position: relative;
+    z-index: 2;
+}
+
+#grouped-bubble-toolbar button {
+    background-color:transparent;
+    padding: 0.4rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    margin: 0;
+    outline: none;
+    border:1px solid grey;
+    color: #cfcfcf;
+}
+#grouped-bubble-toolbar button.active {
+    background-color: #c9c9c9;
+    color: #141619;
+    border:1px solid #c9c9c9;
+}
+
+#grouped-wrapper svg {
+    margin-top: -0.75rem;
+}
