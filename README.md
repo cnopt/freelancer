@@ -3,7 +3,7 @@
 ➔ [Click here to visit the live site and view the visualisations](http://unn-w15002812.newnumyspace.co.uk/freelancer/statistics/)
 
 
-In this project, I chose to add live data visualisations that reflected the state of the site as a whole, to be viewed from the perspective of users -- i.e. freelancers -- looking to find work on the site. These interactive and often animated visualisations were modelled directly on live site data. This meant that users could see a sort of "heartbeat" of the site, and decide for themselves if it was a platform they wanted to invest their time into.
+In this project, I chose to add live data visualisations that reflected the state of the site as a whole, to be viewed from the perspective of users -- i.e. freelancers -- looking to find work on the site. These interactive and sometimes animated visualisations were modelled directly on site data. This meant that users could see a sort of "heartbeat" of the site, and decide for themselves if it was a platform they wanted to invest their time into.
 
 
 ---
