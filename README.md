@@ -3,11 +3,11 @@
 ➔ [Click here to visit the live site and view the visualisations](http://unn-w15002812.newnumyspace.co.uk/freelancer/statistics/)
 
 
-In this project, I chose to add live data visualisations that reflected the state of the site as a whole, to be viewed from both the perspective of users -- i.e. freelancers -- looking to find work on the site. These interactive and often animated visualisations were modelled directly on live site data. This meant that users could see a sort of "heartbeat" of the site, and decide for themselves if it was a platform they wanted to invested their time into. Those posting jobs could also determine if the platform would be able to respond to their needs.
+In this project, I chose to add live data visualisations that reflected the state of the site as a whole, to be viewed from both the perspective of users -- i.e. freelancers -- looking to find work on the site. These interactive and often animated visualisations were modelled directly on live site data. This meant that users could see a sort of "heartbeat" of the site, and decide for themselves if it was a platform they wanted to invest their time into.
 
 
 ---
-I was solely responsible for deciding which metrics to store and document, the visual language, the graphs/charts I would use, how I would present the data, and how to achieve a level of interactivity with every single chart. Some charts will morph based on clicking different buttons, whereas some charts offer simple interactivty in the way of hovering over data points to see specific values.
+I was responsible for deciding which metrics to store and document, the visual language, the graphs/charts I would use, how I would present the data, and how to achieve a level of interactivity with each chart. Some charts adjust when clicking different buttons, whereas some charts offer simple interactivty by hovering over data points to see specific values.
 
 
 The visualisations, written using the D3 javascript framework, are diplayed on a subsection of the site. Within that, there are 6 pages that each encompass general themes for the data interpreted and displayed. There are pages for:
