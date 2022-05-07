@@ -3,8 +3,8 @@
     "features": [
         {
             "type": "Feature",
+            "id":"Axevale",
             "properties": {
-                "id":"Axevale",
                 "WD13CD": "E05008893",
                 "WD13CDO": "40UCHL",
                 "WD13NM": "Axevale",
@@ -688,8 +688,8 @@
         },
         {
             "type": "Feature",
+            "id":"Berrow",
             "properties": {
-                "id":"Berrow",
                 "WD13CD": "E05008894",
                 "WD13CDO": "40UCHM",
                 "WD13NM": "Berrow",
@@ -1177,8 +1177,8 @@
         },
         {
             "type": "Feature",
+            "id":"BridgwaterDunWear",
             "properties": {
-                "id":"BridgwaterDunWear",
                 "WD13CD": "E05008895",
                 "WD13CDO": "40UCHN",
                 "WD13NM": "Bridgwater Dunwear",
@@ -1306,8 +1306,8 @@
         },
         {
             "type": "Feature",
+            "id":"BridgwaterEastover",
             "properties": {
-                "id":"BridgwaterEastover",
                 "WD13CD": "E05008896",
                 "WD13CDO": "40UCHP",
                 "WD13NM": "Bridgwater Eastover",
@@ -1463,10 +1463,9 @@
         },
         {
             "type": "Feature",
+            "id":"BridgwaterFairfax",
             "properties": {
-                "id":"BridgwaterFairfax",
                 "WD13CD": "E05008897",
-                "WD13CDO": "40UCHQ",
                 "WD13NM": "Bridgwater Fairfax",
                 "WD13NMW": null
             },
