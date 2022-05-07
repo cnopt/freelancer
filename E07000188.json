@@ -1,16 +1,10 @@
 {
     "type": "FeatureCollection",
-    "crs": {
-        "type": "name",
-        "properties": {
-            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-        }
-    },
     "features": [
         {
             "type": "Feature",
+            "id":"Axevale",
             "properties": {
-                "id":"GOLF",
                 "WD13CD": "E05008893",
                 "WD13CDO": "40UCHL",
                 "WD13NM": "Axevale",
@@ -694,8 +688,8 @@
         },
         {
             "type": "Feature",
+            "id":"Berrow",
             "properties": {
-                "id":"WANG",
                 "WD13CD": "E05008894",
                 "WD13CDO": "40UCHM",
                 "WD13NM": "Berrow",
@@ -1183,8 +1177,8 @@
         },
         {
             "type": "Feature",
+            "id":"BridgwaterDunWear",
             "properties": {
-                "id":"KNITTED",
                 "WD13CD": "E05008895",
                 "WD13CDO": "40UCHN",
                 "WD13NM": "Bridgwater Dunwear",
@@ -1312,6 +1306,7 @@
         },
         {
             "type": "Feature",
+            "id":"BridgwaterEastover",
             "properties": {
                 "WD13CD": "E05008896",
                 "WD13CDO": "40UCHP",
@@ -1468,6 +1463,7 @@
         },
         {
             "type": "Feature",
+            "id":"BridgwaterFairfax",
             "properties": {
                 "WD13CD": "E05008897",
                 "WD13CDO": "40UCHQ",
@@ -1612,6 +1608,7 @@
         },
         {
             "type": "Feature",
+            "id":"BridgwaterHamp",
             "properties": {
                 "WD13CD": "E05008898",
                 "WD13CDO": "40UCHR",
@@ -1792,6 +1789,7 @@
         },
         {
             "type": "Feature",
+            "id":"BridgwaterVictoria",
             "properties": {
                 "WD13CD": "E05008899",
                 "WD13CDO": "40UCHS",
@@ -1920,6 +1918,7 @@
         },
         {
             "type": "Feature",
+            "id":"BridgwaterWestover",
             "properties": {
                 "WD13CD": "E05008900",
                 "WD13CDO": "40UCHT",
@@ -2076,6 +2075,7 @@
         },
         {
             "type": "Feature",
+            "id":"BridgwaterWyndham",
             "properties": {
                 "WD13CD": "E05008901",
                 "WD13CDO": "40UCHU",
@@ -2264,6 +2264,7 @@
         },
         {
             "type": "Feature",
+            "id":"BurnhamCentral",
             "properties": {
                 "WD13CD": "E05008902",
                 "WD13CDO": "40UCHW",
@@ -2448,6 +2449,7 @@
         },
         {
             "type": "Feature",
+            "id":"BurnhamNorth",
             "properties": {
                 "WD13CD": "E05008903",
                 "WD13CDO": "40UCHX",
@@ -2668,6 +2670,7 @@
         },
         {
             "type": "Feature",
+            "id":"CanningtonWembdon",
             "properties": {
                 "WD13CD": "E05008904",
                 "WD13CDO": "40UCHY",
@@ -3796,6 +3799,7 @@
         },
         {
             "type": "Feature",
+            "id":"Cheddar",
             "properties": {
                 "WD13CD": "E05008905",
                 "WD13CDO": "40UCHZ",
@@ -4596,6 +4600,7 @@
         },
         {
             "type": "Feature",
+            "id":"EastPolden",
             "properties": {
                 "WD13CD": "E05008906",
                 "WD13CDO": "40UCJA",
@@ -4948,6 +4953,7 @@
         },
         {
             "type": "Feature",
+            "id":"HighbridgeBurnham",
             "properties": {
                 "WD13CD": "E05008907",
                 "WD13CDO": "40UCJB",
@@ -5352,6 +5358,7 @@
         },
         {
             "type": "Feature",
+            "id":"HuntspillPawlett",
             "properties": {
                 "WD13CD": "E05008908",
                 "WD13CDO": "40UCJC",
@@ -5836,6 +5843,7 @@
         },
         {
             "type": "Feature",
+            "id":"KingsIsle",
             "properties": {
                 "WD13CD": "E05008909",
                 "WD13CDO": "40UCJD",
@@ -6368,6 +6376,7 @@
         },
         {
             "type": "Feature",
+            "id":"Knoll",
             "properties": {
                 "WD13CD": "E05008910",
                 "WD13CDO": "40UCJE",
@@ -7496,6 +7505,7 @@
         },
         {
             "type": "Feature",
+            "id":"NorthPetherton",
             "properties": {
                 "WD13CD": "E05008911",
                 "WD13CDO": "40UCJF",
@@ -8644,6 +8654,7 @@
         },
         {
             "type": "Feature",
+            "id":"PuritonWoolavington",
             "properties": {
                 "WD13CD": "E05008912",
                 "WD13CDO": "40UCJG",
@@ -8976,6 +8987,7 @@
         },
         {
             "type": "Feature",
+            "id":"Quantocks",
             "properties": {
                 "WD13CD": "E05008913",
                 "WD13CDO": "40UCJH",
@@ -10862,6 +10874,7 @@
         },
         {
             "type": "Feature",
+            "id":"WedmoreMark",
             "properties": {
                 "WD13CD": "E05008914",
                 "WD13CDO": "40UCJJ",
@@ -11642,6 +11655,7 @@
         },
         {
             "type": "Feature",
+            "id":"WestPolden",
             "properties": {
                 "WD13CD": "E05008915",
                 "WD13CDO": "40UCJK",
